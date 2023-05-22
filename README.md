@@ -20,26 +20,26 @@ In this workshop, we'll teach you how to create Quarto projects with multiple do
 
 | Time          | Module                        |
 |---------------|-------------------------------|
-| 08:30 - 09:30 | Hello Quarto                  |
+| 08:30 - 09:30 | **Hello Quarto**              |
 | 09:30 - 09:40 | Break                         |
-| 09:40 - 10:40 | Documents                     |
+| 09:40 - 10:40 | **Documents**                 |
 | 10:40 - 10:50 | Break                         |
-| 10:50 - 11:50 | Presentations                 |
+| 10:50 - 11:50 | **Presentations**             |
 | 11:50 - 12:00 | Break                         |
-| 12:00 - 12:20 | Manuscripts                   |
+| 12:00 - 12:20 | **Manuscripts**               |
 | 12:20 - 12:30 | Wrap-up                       |
 
 ### Workshop 2: Producing Websites and Books
 
 | Time          | Module                        |
 |---------------|-------------------------------|
-| 13:30 - 14:30 | Websites                      |
+| 13:30 - 14:30 | **Websites**                  |
 | 14:30 - 14:40 | Break                         |
-| 14:40 - 15:40 | Books                         |
+| 14:40 - 15:40 | **Books**                     |
 | 15:40 - 15:50 | Break                         |
-| 15:50 - 16:50 | Making your personal website  |
+| 15:50 - 16:50 | **Making your personal website**  |
 | 16:50 - 17:00 | Break                         |
-| 17:00 - 17:30 | Wrap-up                       |
+| 17:00 - 17:30 | **Wrap-up**                   |
 
 ## Instructors
 
