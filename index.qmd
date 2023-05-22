@@ -1,0 +1,63 @@
+---
+title: "Reproducible Documents, Websites, and Books with Quarto"
+subtitle: "SDSS 2023"
+---
+
+Quarto is the next generation of R Markdown for publishing dynamic and static documents with multi-lingual programming language support. With Quarto, you can create documents, books, presentations, blogs, or other online resources.
+
+At SDSS 2023, we're offering two Quarto workshops:
+
+-   Workshop 1: [Producing a Single Document]
+
+-   Workshop 2: [Producing Websites and Books]
+
+This workshop is hosted by the [2023 Symposium on Data Science and Statistics](https://ww2.amstat.org/meetings/sdss/2023/) and supported by [Posit, PBC](https://posit.co/).
+
+# Producing a Single Document
+
+🗓️ Tuesday, May 23
+
+🕣 08:30 - 12:30
+
+🏢 St. Louis Union Station Hotel
+
+| Time          | Module            |
+|---------------|-------------------|
+| 08:30 - 09:30 | **Hello Quarto**  |
+| 09:30 - 09:40 | Break             |
+| 09:40 - 10:40 | **Documents**     |
+| 10:40 - 10:50 | Break             |
+| 10:50 - 11:50 | **Presentations** |
+| 11:50 - 12:00 | Break             |
+| 12:00 - 12:20 | **Manuscripts**   |
+| 12:20 - 12:30 | Wrap-up           |
+
+: {tbl-colwidths="\[25,75\]"}
+
+# Producing Websites and Books
+
+🗓️ Tuesday, May 23
+
+🕜 13:30 - 17:30
+
+🏢 St. Louis Union Station Hotel
+
+| Time          | Module       |
+|---------------|--------------|
+| 13:30 - 14:30 | **Websites** |
+| 14:30 - 14:40 | Break        |
+| 14:40 - 15:40 | **Books**    |
+| 15:40 - 15:50 | Break        |
+| 15:50 - 16:50 | **Projects** |
+| 16:50 - 17:00 | Break        |
+| 17:00 - 17:30 | **Wrap-up**  |
+
+: {tbl-colwidths="\[25,75\]"}
+
+# Instructor
+
+[Mine Çetinkaya-Rundel](https://mine-cr.com/) is a Professor of the Practice at Duke University and a Developer Educator at a Posit, PBC. Mine's work focuses on innovation in statistics and data science pedagogy, with an emphasis on computing, reproducible research, student-centered learning, and open-source education as well as pedagogical approaches for enhancing retention of women and underrepresented minorities. She is a Fellow of the ASA and Elected Member of the ISI as well as the winner of the 2021 Robert V. Hogg Award for For Excellence in Teaching Introductory Statistics.
+
+------------------------------------------------------------------------
+
+![](https://i.creativecommons.org/l/by/4.0/88x31.png) This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
