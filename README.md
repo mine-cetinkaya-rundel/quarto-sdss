@@ -40,7 +40,6 @@ In this workshop, we'll teach you how to create Quarto projects with multiple do
 | 15:50 - 16:50 | Making your personal website  |
 | 16:50 - 17:00 | Break                         |
 | 17:00 - 17:30 | Wrap-up                       |
-                                                |
 
 ## Instructors
 
