@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 39bc2b3c-3bd0-437c-bf6b-c557c45f5d92
+      url: 'https://mine.quarto.pub/quarto-sdss'
