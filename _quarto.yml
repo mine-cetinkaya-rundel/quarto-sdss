@@ -67,9 +67,8 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, style/sta313.scss]
-      dark: [cosmo, style/sta313.scss, style/dark.scss]
-    linkcolor: "#58779b" # Glossy Grape
+      light: [cosmo, style/quarto-sdss.scss]
+      dark: [cosmo, style/quarto-sdss.scss, style/dark.scss]
     toc: true
     code-copy: true
     code-overflow: wrap
