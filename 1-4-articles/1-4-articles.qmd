@@ -1,5 +1,5 @@
 ---
-title: "Manuscripts"
+title: "Articles"
 subtitle: "SDSS 2023: Reproducible Documents, Websites,<br>and Books with Quarto"
 institute: "Duke University + Posit"
 author: "Dr. Mine Çetinkaya-Rundel"
@@ -46,7 +46,7 @@ library(countdown)
 ## Our turn
 
 ::: task
-Let's build a manuscript together from for JASA and showcase the following features of Quarto journal articles:
+Let's write an article together for JASA and showcase the following features of Quarto journal articles:
 
 -   PDF output
 

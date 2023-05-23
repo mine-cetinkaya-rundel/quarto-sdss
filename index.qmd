@@ -29,7 +29,7 @@ This workshop is hosted by the [2023 Symposium on Data Science and Statistics](h
 | 10:40 - 10:50 | Break             |
 | 10:50 - 11:50 | **Presentations** |
 | 11:50 - 12:00 | Break             |
-| 12:00 - 12:20 | **Manuscripts**   |
+| 12:00 - 12:20 | **Articles**      |
 | 12:20 - 12:30 | Wrap-up           |
 
 : {tbl-colwidths="\[25,75\]"}
