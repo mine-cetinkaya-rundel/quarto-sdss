@@ -86,5 +86,5 @@ Add links to learn more here
 ## Questions
 
 ::: task
-Any questions / anything you'd like to review before we wrap up this module?
+Any questions / anything you'd like to review or learn before we wrap up the workshop?
 :::
