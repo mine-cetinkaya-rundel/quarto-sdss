@@ -68,7 +68,7 @@ format:
   html:
     theme:
       light: [cosmo, style/quarto-sdss.scss]
-      dark: [cosmo, style/quarto-sdss.scss, style/dark.scss]
+      dark: [cosmo, style/dark.scss, style/quarto-sdss.scss]
     toc: true
     code-copy: true
     code-overflow: wrap
