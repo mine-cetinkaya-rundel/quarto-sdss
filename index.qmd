@@ -21,16 +21,16 @@ This workshop is hosted by the [2023 Symposium on Data Science and Statistics](h
 
 🏢 St. Louis Union Station Hotel
 
-| Time          | Module            |
-|---------------|-------------------|
-| 08:30 - 09:30 | **Hello Quarto**  |
-| 09:30 - 09:40 | Break             |
-| 09:40 - 10:40 | **Documents**     |
-| 10:40 - 10:50 | Break             |
-| 10:50 - 11:50 | **Presentations** |
-| 11:50 - 12:00 | Break             |
-| 12:00 - 12:20 | **Articles**      |
-| 12:20 - 12:30 | Wrap-up           |
+| Time          | Module                              |
+|---------------|-------------------------------------|
+| 08:30 - 09:30 | [Hello Quarto](1-1-hello-quarto/)   |
+| 09:30 - 09:40 | Break                               |
+| 09:40 - 10:45 | [Documents](1-2-documents/)         |
+| 10:45 - 11:00 | Break                               |
+| 11:00 - 11:50 | [Presentations](1-3-presentations/) |
+| 11:50 - 12:00 | Break                               |
+| 12:00 - 12:20 | [Articles](1-4-articles/)           |
+| 12:20 - 12:30 | [Wrap-up](1-5-wrap-up/)             |
 
 : {tbl-colwidths="\[25,75\]"}
 
@@ -42,15 +42,15 @@ This workshop is hosted by the [2023 Symposium on Data Science and Statistics](h
 
 🏢 St. Louis Union Station Hotel
 
-| Time          | Module       |
-|---------------|--------------|
-| 13:30 - 14:30 | **Websites** |
-| 14:30 - 14:40 | Break        |
-| 14:40 - 15:40 | **Books**    |
-| 15:40 - 15:50 | Break        |
-| 15:50 - 16:50 | **Projects** |
-| 16:50 - 17:00 | Break        |
-| 17:00 - 17:30 | **Wrap-up**  |
+| Time          | Module                    |
+|---------------|---------------------------|
+| 13:30 - 14:30 | [Websites](2-1-websites/) |
+| 14:30 - 14:40 | Break                     |
+| 14:40 - 15:40 | [Books](2-2-books/)       |
+| 15:40 - 15:50 | Break                     |
+| 15:50 - 16:50 | [Projects](2-3-projects/) |
+| 16:50 - 17:00 | Break                     |
+| 17:00 - 17:30 | [Wrap-up](2-4-wrap-up/)   |
 
 : {tbl-colwidths="\[25,75\]"}
 
