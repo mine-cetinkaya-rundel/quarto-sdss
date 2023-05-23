@@ -10,12 +10,33 @@ $font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
 $font-family-monospace: "Source Code Pro", monospace;
 $presentation-heading-color: #123233; /* SDSS Dark Green */
 $link-color: #123233;
+$hover-color: lighten($link-color, 40%);
 $code-color: #123233;
 $code-block-font-size: 0.7em;
 $presentation-h2-font-size: 1.4em !default;
 $presentation-font-size-root: 36px !default;
 
 /*-- scss:rules --*/
+
+.reveal a{
+  color: $link-color;
+  text-decoration: underline;
+
+  &:hover{
+    color: $hover-color;
+  }
+  
+}
+
+.reveal .footer a{
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover{
+    color: $hover-color;
+  }
+  
+}
 
 details>summary {
   font-size: 0.75em;
