@@ -1,0 +1,20 @@
+{
+  "hash": "26345114cae0fc20e7c590cc20b490cb",
+  "result": {
+    "markdown": "---\ntitle: \"Wrap-up\"\nsubtitle: \"SDSS 2023: Reproducible Documents, Websites,<br>and Books with Quarto\"\ninstitute: \"Duke University + Posit\"\nauthor: \"Dr. Mine Çetinkaya-Rundel\"\ndate: \"2023-05-23\"\nfooter: \"[🔗 mine.quarto.pub/quarto-sdss](https://mine.quarto.pub/quarto-sdss)\"\nlogo: \"../images/logo.png\"\nformat:\n  revealjs:\n    theme: ../style/slides.scss\n    transition: fade\n    slide-number: true\n    chalkboard: true\neditor: visual\nexecute:\n  freeze: auto\n  echo: true\n---\n\n\n\n\n# Parting remarks\n\n## Quarto CLI...\n\norchestrates each step of rendering\n\n![Artwork from \"Hello, Quarto\" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.](images/horst_qmd_render_schema.png){fig-alt=\"A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document.\"}\n\n## Learning more\n\n[https://quarto.org](https://quarto.org/)\n\n\n```{=html}\n<iframe src=\"https://quarto.org/\" width=\"100%\" height=\"600\" title=\"Quarto Website\"></iframe>\n```\n\n## Follow up with...\n\nthe Quarto Blog: <https://quarto.org/docs/blog>\n\n\n```{=html}\n<iframe src=\"https://quarto.org/docs/blog/\" width=\"100%\" height=\"600\" title=\"Quarto 1.3 Pre-release notes\"></iframe>\n```\n\n## Thank you! {background-image=\"images/thank-you.png\"}\n\n🐘 [https://fosstodon.org/\\@minecr](https://fosstodon.org/@minecr)\n\n🐦 [\\@minebocek](https://twitter.com/minebocek)\n\n## Questions\n\n::: task\nAny questions / anything you'd like to review or learn before we wrap up the workshop?\n:::",
+    "supporting": [
+      "2-4-wrap-up_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

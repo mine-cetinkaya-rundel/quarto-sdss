@@ -1,0 +1,20 @@
+{
+  "hash": "1d237e1e6e0c3ec50ec0bb55abdf1032",
+  "result": {
+    "markdown": "---\ntitle: \"Books\"\nsubtitle: \"SDSS 2023: Reproducible Documents, Websites,<br>and Books with Quarto\"\ninstitute: \"Duke University + Posit\"\nauthor: \"Dr. Mine Çetinkaya-Rundel\"\ndate: \"2023-05-23\"\nfooter: \"[🔗 mine.quarto.pub/quarto-sdss](https://mine.quarto.pub/quarto-sdss)\"\nlogo: \"../images/logo.png\"\nformat:\n  revealjs:\n    theme: ../style/slides.scss\n    transition: fade\n    slide-number: true\n    chalkboard: true\neditor: visual\nexecute:\n  freeze: auto\n  echo: true\n---\n\n\n\n\n# TO DO: Add books slides\n",
+    "supporting": [
+      "2-2-books_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
