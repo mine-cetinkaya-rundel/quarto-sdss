@@ -1,0 +1,32 @@
+---
+title: "Projects"
+subtitle: "SDSS 2023: Reproducible Documents, Websites,<br>and Books with Quarto"
+institute: "Duke University + Posit"
+author: "Dr. Mine Çetinkaya-Rundel"
+date: "2023-05-23"
+footer: "[🔗 mine.quarto.pub/quarto-sdss](https://mine.quarto.pub/quarto-sdss)"
+logo: "../images/logo.png"
+format:
+  revealjs:
+    theme: ../style/slides.scss
+    transition: fade
+    slide-number: true
+    chalkboard: true
+editor: visual
+execute:
+  freeze: auto
+  echo: true
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+# set width of code output
+options(width = 65)
+
+# load background packages
+library(countdown)
+```
+
+# TO DO: Add projects slides
