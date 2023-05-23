@@ -43,6 +43,16 @@ library(countdown)
 
     -   `books`: Books 😃
 
+## Quarto websites
+
+-   Websites are essentially `format: html` + a Quarto Project
+
+-   But a website is different than `format: html` in that it has multiple pages
+
+-   Websites are our first exploration into Quarto Projects
+
+-   Websites and books are very similar in that they associate multiple pages/resources into a connected resource
+
 ## Our turn
 
 ::: task
@@ -50,7 +60,7 @@ Let's build a website together from all of the documents we've created so far an
 
 -   `_quarto.yml`
 
--   `index.qmd` / landing page
+-   `index.qmd` / landing page / change landing page
 
 -   Navigation
 
@@ -58,7 +68,7 @@ Let's build a website together from all of the documents we've created so far an
 
 -   Themes and dark theme toggle
 
--   Publishing
+-   Publishing to QuartoPub
 
 -   An aspect of the workshop webpage that you fancy?
 :::
@@ -69,7 +79,7 @@ Let's build a website together from all of the documents we've created so far an
 Pick up where we left off and
 
 -   Add an [about page](https://quarto.org/docs/websites/website-about.html).
--   Add a folder called `posts` and create a few minimal blog post entries. Then, using the [listings feature](https://quarto.org/docs/websites/website-listings.html), create a blog page for your website.
+-   Cross reference one page from another.
 :::
 
 ```{r}
@@ -78,7 +88,33 @@ Pick up where we left off and
 countdown(minutes = 15)
 ```
 
-# Wrap up
+## Our turn
+
+::: task
+Let's now add a blog component to our website.
+
+-   Add a folder called `posts` and create a few minimal blog post entries and collect these from a blog page using the [listings feature](https://quarto.org/docs/websites/website-listings.html).
+
+-   Change the style of listings.
+:::
+
+# Computations
+
+## When should code be re-run? {.smaller}
+
+::: incremental
+-   You might have a reason to re-run all code in a Quarto website (every single chunk in every single document) every time you render the website.
+
+-   But, chances are, that's not what you want.
+
+    -   Just playing around styling -- you probably don't want to run the code again
+
+    -   Changed some code in a document -- you probably want to re-run the code in that document, but not necessarily others
+
+    -   Made a big change affecting computations on many or all pages -- you probably want to re-run all code
+
+-   `freeze` and `cache` options give you fine control over these decisions
+:::
 
 ## Freeze {.smaller}
 
@@ -105,7 +141,7 @@ execute:
 
 -   You can have it only within specific subdirectories for more complex sites.
 
-## Freeze vs. cache
+## Cache
 
 -   Cache stores the results of computations for a specific file.
 
@@ -113,9 +149,56 @@ execute:
 
 -   `cache` can also be set at the chunk level. Consider using the cache for computationally expensive chunks.
 
-## Publishing
+## Freeze vs. cache {.smaller}
 
-See <https://quarto.org/docs/publishing> for publishing options other than Quarto Pub.
+-   Freeze option is typically set
+
+    -   for the whole website in `_quarto.yml`, or
+
+    -   for files within a directory in `_metadata.yml` in that directory
+
+``` yaml
+execute: 
+  freeze: auto
+```
+
+-   Cache option is typically set for a given file or for individual chunk(s) in a file.
+
+``` yaml
+execute:
+  cache: true
+```
+
+or
+
+```{r}
+#| echo: fenced
+#| cache: true
+
+1 + 1
+```
+
+# Publishing
+
+## QuartoPub
+
+- [Quarto Pub](https://quartopub.com/) is a free publishing service for content created with Quarto. It is ideal for blogs, course or project websites, books, presentations, and personal hobby sites.
+
+- Publish with `quarto publish`:
+
+``` {.bash filename="Terminal"}
+quarto publish quarto-pub
+```
+
+- Gain a `_publish.yml` that is safe to check into version control.
+
+## Other venues
+
+- GitHub Pages
+- Posit Connect
+- Netlify
+- Confluence
+- [More venues](https://quarto.org/docs/publishing/other.html)
 
 # Wrap up
 
@@ -124,4 +207,3 @@ See <https://quarto.org/docs/publishing> for publishing options other than Quart
 ::: task
 Any questions / anything you'd like to review before we wrap up this module?
 :::
-
