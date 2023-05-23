@@ -91,22 +91,17 @@ Add the following information to this slide.
 
 ## Teaching team
 
-::: columns
-::: {.column width="50%"}
-**Mine Çetinkaya-Rundel**
+-   **Instructor:** Mine Çetinkaya-Rundel
 
--   Professor of the Practice, Department of Statistical Science, Duke University
--   Developer Educator, Posit PBC
-:::
+    -   Professor of the Practice, Duke University - Statistical Science
 
-::: {.column width="50%"}
-**Tracy Teal**
+    -   Developer Educator, Posit
 
--   Open Source Program Director, Posit PBC
-:::
-:::
+-   **TA:** Tracy Teal
 
--   R Markdown users/educators for 10+ years, Quarto users/educators for 1+ years
+    -   Open Source Program Director, Posit
+
+-   **Both:** R Markdown users/educators for 10+ years, Quarto users/educators for 1+ years
 
 ## About you
 

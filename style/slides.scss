@@ -8,7 +8,7 @@
 
 $font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
 $font-family-monospace: "Source Code Pro", monospace;
-$presentation-heading-color: #123233; /* SDSS Dark Green */
+$presentation-heading-color: #6DB76D; /* SDSS Dark Green */
 $link-color: #123233;
 $hover-color: lighten($link-color, 40%);
 $code-color: #123233;
@@ -29,6 +29,16 @@ $presentation-font-size-root: 36px !default;
 }
 
 .reveal .footer a{
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover{
+    color: $hover-color;
+  }
+  
+}
+
+.reveal .slide-number a{
   color: $link-color;
   text-decoration: none;
 
@@ -88,7 +98,7 @@ details>summary {
 
 .reveal .hand-green-large {
   font-family: 'Gochi Hand', cursive;
-  color: #123233;
+  color: #6DB76D;
   font-size: 3em
 }
 
@@ -101,4 +111,9 @@ details>summary {
   margin-top: 6px;
   border-left: solid 5px #123233;
   background-color: #CCDA5150;
+}
+
+.reveal .slide .author {
+  padding: 10px;
+  border: solid 2px #123233;
 }
