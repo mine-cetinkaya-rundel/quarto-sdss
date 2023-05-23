@@ -42,15 +42,15 @@ This workshop is hosted by the [2023 Symposium on Data Science and Statistics](h
 
 🏢 St. Louis Union Station Hotel
 
-| Time          | Module                    |
-|---------------|---------------------------|
-| 13:30 - 14:30 | [Websites](2-1-websites/) |
-| 14:30 - 14:40 | Break                     |
-| 14:40 - 15:40 | [Books](2-2-books/)       |
-| 15:40 - 15:50 | Break                     |
-| 15:50 - 16:50 | [Projects](2-3-projects/) |
-| 16:50 - 17:00 | Break                     |
-| 17:00 - 17:30 | [Wrap-up](2-4-wrap-up/)   |
+| Time          | Module                              |
+|---------------|-------------------------------------|
+| 13:30 - 14:30 | [Websites](2-1-websites/)           |
+| 14:30 - 14:40 | Break                               |
+| 14:40 - 15:40 | [Books](2-2-books/)                 |
+| 15:40 - 15:50 | Break                               |
+| 15:50 - 16:50 | [Miscellaneous](2-3-miscellaneous/) |
+| 16:50 - 17:00 | Break                               |
+| 17:00 - 17:30 | [Wrap-up](2-4-wrap-up/)             |
 
 : {tbl-colwidths="\[25,75\]"}
 

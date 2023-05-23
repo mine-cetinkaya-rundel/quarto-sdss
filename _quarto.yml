@@ -58,8 +58,8 @@ website:
             text: Websites
           - href: 2-2-books/index.qmd
             text: Books
-          - href: 2-3-projects/index.qmd
-            text: Projects
+          - href: 2-3-miscellaneous/index.qmd
+            text: Miscellaneous
           - href: 2-4-wrap-up/index.qmd
             text: Wrap-up
 

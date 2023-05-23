@@ -1,0 +1,14 @@
+---
+title: "Miscellaneous"
+---
+
+## Slides
+
+[View slides in full screen](2-3-miscellaneous.html)
+
+```{=html}
+<iframe class="slide-deck" src="2-3-miscellaneous.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+## Exercises
+
+For exercises in this module we'll use all the documents we've created so far.

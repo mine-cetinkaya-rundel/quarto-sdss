@@ -4,10 +4,10 @@ title: "Wrap-up"
 
 ## Slides
 
-[View slides in full screen](4-websites.html)
+[View slides in full screen](2-4-wrap-up.html)
 
 ```{=html}
-<iframe class="slide-deck" src="2-4-wrap-up.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="2-4-wrap-up.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 ## Exercises
 

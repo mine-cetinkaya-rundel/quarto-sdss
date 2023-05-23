@@ -29,6 +29,8 @@ options(width = 65)
 library(countdown)
 ```
 
+# Parting remarks
+
 ## Quarto CLI...
 
 orchestrates each step of rendering
@@ -54,6 +56,26 @@ orchestrates each step of rendering
 <iframe src="https://quarto.org/docs/blog/" width="100%" height="550" title="Quarto Website"></iframe>
 ```
 :::
+
+# Troubleshooting
+
+## Creating a minimum reproducible example
+
+- For any coding question, start by creating a minimum reproducible example (reprex)
+
+- You'll find that this task is less than trivial for a complex Quarto project
+
+- But there's a good chance you'll solve your problem while creating the reprex 
+
+## Getting help
+
+- Review the FAQ: <https://quarto.org/docs/faq>
+
+- Have a question, post on GitHub Discussion: <https://github.com/quarto-dev/quarto-cli/discussions>
+
+- Found (or think you found) a bug or have a feature request, open an issue: <https://github.com/quarto-dev/quarto-cli/issues>
+
+# Fin
 
 ## Thank you! {background-image="images/thank-you.png"}
 

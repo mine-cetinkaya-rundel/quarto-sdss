@@ -1,0 +1,222 @@
+---
+title: "Miscellaneous"
+subtitle: "SDSS 2023: Reproducible Documents, Websites,<br>and Books with Quarto"
+institute: "Duke University + Posit"
+author: "Dr. Mine Çetinkaya-Rundel"
+date: "2023-05-23"
+footer: "[🔗 mine.quarto.pub/quarto-sdss](https://mine.quarto.pub/quarto-sdss)"
+logo: "../images/logo.png"
+format:
+  revealjs:
+    theme: ../style/slides.scss
+    transition: fade
+    slide-number: true
+    chalkboard: true
+editor: visual
+execute:
+  freeze: auto
+  echo: true
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+# set width of code output
+options(width = 65)
+
+# load background packages
+library(countdown)
+```
+
+# Tools
+
+## Logos
+
+Places the logo on top of the sidebar and a small version in the browser tab.
+
+``` yaml
+website:
+  sidebar:
+    logo: "images/logo.png"
+  favicon: "images/logo.png"
+```
+
+## Icons
+
+``` yaml
+website:
+  sidebar:
+    logo: "images/logo.png"
+    tools:
+      - icon: github
+        href: https://github.com/quart-cli
+        text: "GitHub organization"
+      - icon: code-square
+        href: https://posit.cloud
+        text: "Posit Cloud"
+```
+
+## Socials
+
+Some examples include:
+
+-   [Twitter Cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards) provide an enhanced appearance when someone links to your site on Twitter.
+
+-   The [Open Graph protocol](#0) enables richer sharing of links to articles on the web, e.g., with preview images.
+
+``` yaml
+website:
+  twitter-card: true
+  open-graph: true
+```
+
+## Learn more
+
+::: learn-more
+[quarto.org/docs/websites/website-tools.html](https://quarto.org/docs/websites/website-tools.html)
+
+```{=html}
+<iframe src="https://quarto.org/docs/websites/website-tools.html" width="100%" height="500" style="border:2px solid #123233;" title="Quarto Journal Articles"></iframe>
+```
+:::
+
+## Your turn
+
+::: task
+Pick up where we left off and
+
+-   Add a link to a GitHub repository with a [bootstrap icon](https://icons.getbootstrap.com/).
+-   Review <https://quarto.org/docs/websites/website-tools.html> and implement one new tool we haven't introduced.
+:::
+
+```{r}
+#| echo: false
+
+countdown(minutes = 10)
+```
+
+# Theming
+
+## Theme options
+
+-   One of 25 [Bootswatch](https://bootswatch.com/) themes
+
+-   Custom themes
+
+-   A combination of the two
+
+## Setting the theme
+
+In `_quarto.yml`:
+
+``` yaml
+format:
+  html:
+    theme: default
+```
+
+## Dark mode
+
+Setting a light and dark theme makes both available with a toggle automatically added to your website:
+
+``` yaml
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+```
+
+## Customizing themes
+
+To customize a theme, add a custom `.scss` file that is then called in `_quarto.yml`, e.g.:
+
+``` yaml
+format:
+  html:
+    theme:
+      light: [flatly, custom.scss]
+      dark: darkly
+```
+
+## SCSS files
+
+SCSS files have the following form:
+
+``` scss
+/*-- scss:defaults --*/
+$h2-font-size:          1.6rem !default;
+$headings-font-weight:  500 !default;
+$body-color:            $gray-700 !default;
+
+/*-- scss:rules --*/
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
+}
+```
+
+-   The `defaults` section is where you list variables
+
+-   The `rules` section is where you list (CSS) rules
+
+## SASS variables
+
+-   Some examples include:
+
+    -   `$body-bg`: The page background color.
+
+    -   `$link-color`: The link color.
+
+    -   `$font-family-monospace`: The monospace font family for the page.
+
+    -   `$callout-color-<type>`: The colors for the various types of callouts.
+
+-   See the full list at <https://quarto.org/docs/output-formats/html-themes.html#sass-variables>.
+
+## Learn more
+
+::: learn-more
+[quarto.org/docs/output-formats/html-themes.html](https://quarto.org/docs/output-formats/html-themes.html)
+
+```{=html}
+<iframe src="https://quarto.org/docs/output-formats/html-themes.html" width="100%" height="500" style="border:2px solid #123233;" title="Quarto Journal Articles"></iframe>
+```
+:::
+
+## Tip
+
+::: callout-tip
+## Figuring out what to style
+
+-   Use your browser's developer tools.
+
+-   Refer to the [default values for SASS variables](https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss) and set to something absurd (red and bold or giant size) while testing. Once you have the correct variable or rule identified, set the style values to what you want them to be.
+:::
+
+## Your turn
+
+::: task
+Pick up where we left off and
+
+-   Change the theme of your project to one of the Bootswatch themes.
+-   Add light / dark mode toggle, experimenting with different light and dark themes.
+-   Stretch goal: Customize 1-2 elements of your theme.
+:::
+
+```{r}
+#| echo: false
+
+countdown(minutes = 10)
+```
+
+# Request hour
+
+## Your turn
+
+to request!
+
+::: .task
+What other aspects / features of a Quarto website or book would you like to learn about?
+:::
+

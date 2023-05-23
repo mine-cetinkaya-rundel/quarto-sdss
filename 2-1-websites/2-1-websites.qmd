@@ -182,25 +182,35 @@ or
 
 ## QuartoPub
 
-- [Quarto Pub](https://quartopub.com/) is a free publishing service for content created with Quarto. It is ideal for blogs, course or project websites, books, presentations, and personal hobby sites.
+-   [Quarto Pub](https://quartopub.com/) is a free publishing service for content created with Quarto. It is ideal for blogs, course or project websites, books, presentations, and personal hobby sites.
 
-- Publish with `quarto publish`:
+-   Publish with `quarto publish`:
 
 ``` {.bash filename="Terminal"}
 quarto publish quarto-pub
 ```
 
-- Gain a `_publish.yml` that is safe to check into version control.
+-   Gain a `_publish.yml` that is safe to check into version control.
 
 ## Other venues
 
-- GitHub Pages
-- Posit Connect
-- Netlify
-- Confluence
-- [More venues](https://quarto.org/docs/publishing/other.html)
+-   GitHub Pages
+-   Posit Connect
+-   Netlify
+-   Confluence
+-   [More venues](https://quarto.org/docs/publishing/other.html)
 
 # Wrap up
+
+## Learn more
+
+::: learn-more
+[quarto.org/docs/websites](https://quarto.org/docs/websites/)
+
+```{=html}
+<iframe src="https://quarto.org/docs/websites" width="100%" height="500" style="border:2px solid #123233;" title="Quarto Journal Articles"></iframe>
+```
+:::
 
 ## Questions
 
