@@ -11,4 +11,4 @@ title: "Wrap-up"
 ```
 ## Exercises
 
-For exercises in this module we'll use all the documents we've created so far.
+There are no exercises in this module.

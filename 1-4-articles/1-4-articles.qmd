@@ -43,6 +43,51 @@ library(countdown)
 
 **Weave it all together**, and you have a beautiful, reproducible journal article!
 
+## Journal articles
+
+Quarto supports
+
+::: incremental
+-   a standardized schema for authors and affiliations that can be expressed once int the source document,
+
+-   the use of Citation Style Language (CSL) to automate the formatting of citations and bibliographies, and
+
+-   outputting to `pdf`, `html`, and `docx` with custom formatting,
+:::
+
+. . .
+
+according to the styles required for various journals,
+
+. . .
+
+and creating the LaTeX required for submission to multiple journals.
+
+## Journal formats {.smaller}
+
+::: learn-more
+[github.com/quarto-journals](https://github.com/quarto-journals)
+:::
+
+| Journal / Publisher                       | Name                                                                          |
+|-------------------------------------------|-------------------------------------------------------------------------------|
+| Association of Computing Machinery        | [acm](https://github.com/quarto-journals/acm)                                 |
+| American Chemical Society                 | [acs](https://github.com/quarto-journals/acs)                                 |
+| American Geophysical Union                | [agu](https://github.com/quarto-journals/agu)                                 |
+| Biophysical journal                       | [biophysical-journal](https://github.com/quarto-journals/biophysical-journal) |
+| Elsevier Journals                         | [elsevier](https://github.com/quarto-journals/elsevier)                       |
+| American Statistical Association Journals | [jasa](https://github.com/quarto-journals/jasa)                               |
+| Journal of Statistical Software           | [jss](https://github.com/quarto-journals/jss)                                 |
+| Public Library of Science                 | [plos](https://github.com/quarto-journals/plos)                               |
+
+## Getting started with a journal article
+
+The `quarto use template` command can be used to create an article from one these formats, e.g. for JASA:
+
+```{.bash filename="Terminal"}
+quarto use template quarto-journals/jasa
+```
+
 ## Our turn
 
 ::: task
@@ -50,7 +95,7 @@ Let's write an article together for JASA and showcase the following features of 
 
 -   PDF output
 
--   YAML
+-   Extended YAML fields
 
 -   Citations
 :::
@@ -64,7 +109,7 @@ Pick up where we left off and
 
 -   Add another citation from a DOI
 
--   Add an appendix
+-   Add a cross reference to a figure, table, or section
 :::
 
 ```{r}
@@ -75,12 +120,15 @@ countdown(minutes = 10)
 
 # Wrap up
 
-## Quarto journal articles
+## Learn more
 
-::: callout-caution
-## TO DO
+::: learn-more
+[quarto.org/docs/journals/index.html](https://quarto.org/docs/journals/index.html)
 
-Add links to learn more here
+
+```{=html}
+<iframe src="https://quarto.org/docs/journals/index.html" width="100%" height="500" style="border:2px solid #123233;" title="Quarto Journal Articles"></iframe>
+```
 :::
 
 ## Questions

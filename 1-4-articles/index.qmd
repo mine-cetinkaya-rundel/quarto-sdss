@@ -4,11 +4,11 @@ title: "Articles"
 
 ## Slides
 
-[View slides in full screen](3-presentations.html)
+[View slides in full screen](1-4-articles.html)
 
 ```{=html}
-<iframe class="slide-deck" src="1-4-manuscripts.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="1-4-articles.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 ## Exercises
 
-TO DO: Add exercises
+There are no starter files for the exercises in this module. You'll create the files as part of the exercises.

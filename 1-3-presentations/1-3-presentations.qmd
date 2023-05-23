@@ -52,7 +52,7 @@ Let's build a presentation together from `hello-penguins-slides.qmd` and showcas
 
 -   Incremental lists
 
--   Columns
+-   Columns and tabsets
 
 -   Code, output location, code highlighting
 
@@ -93,17 +93,31 @@ Let's continue building our a presentation together from `hello-penguins-slides.
 -   Fragments
 
 -   Title slide attributes
+
+-   Speaker notes
 :::
 
 # Wrap up
 
 ## Quarto presentation formats
 
--   [`revealjs`](https://quarto.org/docs/presentations/revealjs) - essentially the replacement for `xaringan`, but with Pandoc-native syntax
+-   [`revealjs`](https://quarto.org/docs/presentations/revealjs) for HTML slides
 
--   `beamer` for LaTeX slides
+    -   Essentially the replacement for `xaringan`, but with Pandoc-native syntax
 
--   PowerPoint for when you *have to* collaborate via MS Office
+-   [`beamer`](https://quarto.org/docs/presentations/beamer.html) for LaTeX slides
+
+-   [PowerPoint](https://quarto.org/docs/presentations/powerpoint.html) for when you *have to* collaborate via MS Office
+
+## Learn more
+
+::: learn-more
+[quarto.org/docs/presentations](https://quarto.org/docs/presentations)
+
+```{=html}
+<iframe src="https://quarto.org/docs/presentations/" width="100%" height="500" style="border:2px solid #123233;" title="Quarto Presentations"></iframe>
+```
+:::
 
 ## Questions
 

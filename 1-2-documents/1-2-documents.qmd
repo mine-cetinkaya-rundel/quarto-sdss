@@ -950,6 +950,17 @@ countdown(minutes = 10)
 
 # Wrap up
 
+## Learn more
+
+::: learn-more
+[quarto.org/docs/authoring/markdown-basics.html](https://quarto.org/docs/authoring/markdown-basics.html)
+
+
+```{=html}
+<iframe src="https://quarto.org/docs/authoring/markdown-basics.html" width="100%" height="500" style="border:2px solid #123233;" title="Quarto Markdown Basics"></iframe>
+```
+:::
+
 ## Questions
 
 ::: task
