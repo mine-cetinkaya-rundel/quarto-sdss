@@ -1,0 +1,68 @@
+---
+title: "Wrap-up"
+subtitle: "SDSS 2023: Reproducible Documents, Websites,<br>and Books with Quarto"
+institute: "Duke University + Posit"
+author: "Dr. Mine Çetinkaya-Rundel"
+date: "2023-05-23"
+footer: "[🔗 mine.quarto.pub/quarto-sdss](https://mine.quarto.pub/quarto-sdss)"
+logo: "../images/logo.png"
+format:
+  revealjs:
+    theme: ../style/slides.scss
+    transition: fade
+    slide-number: true
+    chalkboard: true
+editor: visual
+execute:
+  freeze: auto
+  echo: true
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+# set width of code output
+options(width = 65)
+
+# load background packages
+library(countdown)
+```
+
+## Quarto CLI...
+
+orchestrates each step of rendering
+
+![Artwork from "Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.](images/horst_qmd_render_schema.png){fig-alt="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document."}
+
+## Learn more
+
+::: learn-more
+[https://quarto.org](https://quarto.org/)
+
+```{=html}
+<iframe src="https://quarto.org/" width="100%" height="550" title="Quarto Website"></iframe>
+```
+:::
+
+## Follow up with...
+
+::: learn-more
+[quarto.org/docs/blog](https://quarto.org/docs/blog)
+
+```{=html}
+<iframe src="https://quarto.org/docs/blog/" width="100%" height="550" title="Quarto Website"></iframe>
+```
+:::
+
+## Thank you! {background-image="images/thank-you.png"}
+
+🐘 [https://fosstodon.org/\@minecr](https://fosstodon.org/@minecr)
+
+🐦 [\@minebocek](https://twitter.com/minebocek)
+
+## Questions
+
+::: task
+Any questions / anything you'd like to review or learn before we wrap up the workshop?
+:::
