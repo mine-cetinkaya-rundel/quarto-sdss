@@ -51,21 +51,21 @@ install.packages(pkg_list)
 
 -   Download `exercises.zip` at <https://mine.quarto.pub/quarto-sdss/exercises.zip> and unzip it on your Desktop or somewhere you can easily locate on your computer. Then, go to RStudio \> File \> New Project \> Existing Directory and navigate to the unzipped `exercises` folder and create an RStudio project in there and open it.
 
-# Welcome
+Or, click [here](https://posit.cloud/spaces/377666/join?access_code=kp0V37Moc2WynUu8xZc_9c-sGFuEAqfDvXdhWTEX) to join the Posit Cloud space for the workshop.
 
-## Logistics {.smaller}
-
-::: callout-warning
-## TO DO
-
-Add the following information to this slide.
+::: aside
+A few of the features we'll demo may not work on Posit Cloud since the Quarto version is a bit behind, but you should be able to follow \>95% of the workshop there.
 :::
 
--   WiFi
+# Welcome
 
--   Emergency exits
+## Room info {.smaller}
 
--   Restrooms
+-   WiFi: Curio Meeting / 1820
+
+-   Emergency exits behind you
+
+-   Restrooms: Out the door and turn right, then men's to the left, women's to the right
 
 ## Code of Conduct {.smaller}
 
