@@ -1,0 +1,90 @@
+---
+title: "Manuscripts"
+subtitle: "SDSS 2023: Reproducible Documents, Websites,<br>and Books with Quarto"
+institute: "Duke University + Posit"
+author: "Dr. Mine Çetinkaya-Rundel"
+date: "2023-05-23"
+footer: "[🔗 mine.quarto.pub/quarto-sdss](https://mine.quarto.pub/quarto-sdss)"
+logo: "../images/logo.png"
+format:
+  revealjs:
+    theme: ../style/slides.scss
+    transition: fade
+    slide-number: true
+    chalkboard: true
+editor: visual
+execute:
+  freeze: auto
+  echo: true
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+# set width of code output
+options(width = 65)
+
+# load background packages
+library(countdown)
+```
+
+# Anatomy of a Quarto journal article
+
+## Components
+
+1.  Metadata: YAML
+
+2.  Text: Markdown
+
+3.  Code: Executed via `knitr` or `jupyter`
+
+. . .
+
+**Weave it all together**, and you have a beautiful, reproducible journal article!
+
+## Our turn
+
+::: task
+Let's build a manuscript together from for JASA and showcase the following features of Quarto journal articles:
+
+-   PDF output
+
+-   YAML
+
+-   Citations
+:::
+
+## Your turn
+
+::: task
+Pick up where we left off and
+
+-   Add co-authors
+
+-   Add another citation from a DOI
+
+-   Add an appendix
+:::
+
+```{r}
+#| echo: false
+
+countdown(minutes = 10)
+```
+
+# Wrap up
+
+## Quarto journal articles
+
+::: callout-caution
+## TO DO
+
+Add links to learn more here
+:::
+
+## Questions
+
+::: task
+Any questions / anything you'd like to review before we wrap up this module?
+:::

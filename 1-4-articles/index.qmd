@@ -1,0 +1,14 @@
+---
+title: "Manuscripts"
+---
+
+## Slides
+
+[View slides in full screen](3-presentations.html)
+
+```{=html}
+<iframe class="slide-deck" src="1-4-manuscripts.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+## Exercises
+
+TO DO: Add exercises
