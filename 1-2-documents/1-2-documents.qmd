@@ -239,7 +239,7 @@ RStudio + VSCode provide rich tab-completion - start a word and tab to complete,
 ```{r}
 #| echo: false
 
-countdown(minutes = 3)
+countdown(minutes = 5)
 ```
 
 ## List of valid YAML fields
@@ -498,7 +498,7 @@ Tip with caption.
 ```{r}
 #| echo: false
 
-countdown(minutes = 3)
+countdown(minutes = 5)
 ```
 
 ## Footnotes
