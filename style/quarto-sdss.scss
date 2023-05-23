@@ -16,3 +16,7 @@ a{
   }
   
 }
+
+div.sidebar-item-container .active, div.sidebar-item-container .show>.nav-link, div.sidebar-item-container .sidebar-link>code {
+  font-weight: bold; 
+}

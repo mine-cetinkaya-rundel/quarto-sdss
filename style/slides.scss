@@ -8,10 +8,9 @@
 
 $font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
 $font-family-monospace: "Source Code Pro", monospace;
-$presentation-heading-color: #6DB76D; /* SDSS Dark Green */
-$link-color: #123233;
-$hover-color: lighten($link-color, 40%);
-$code-color: #123233;
+$presentation-heading-color: #123233; /* SDSS Dark Green */
+$link-color: #6DB76D;
+$hover-color: lighten($link-color, 10%);
 $code-block-font-size: 0.7em;
 $presentation-h2-font-size: 1.4em !default;
 $presentation-font-size-root: 36px !default;
@@ -113,7 +112,8 @@ details>summary {
   background-color: #CCDA5150;
 }
 
-.reveal .slide .author {
-  padding: 10px;
-  border: solid 2px #123233;
+.reveal .slide .learn-more {
+  text-align: center;
+  font-family: $font-family-monospace;
+  padding-bottom: 10px;
 }
