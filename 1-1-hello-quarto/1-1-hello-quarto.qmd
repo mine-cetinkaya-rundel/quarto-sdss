@@ -129,14 +129,8 @@ countdown(minutes = 2)
 
 -   During **your turn** segments -- also feel free to raise your hand for questions but use the stickies to signal:
 
-    -   Light green: I'd like some help / I'm stuck / I'm lost
-    -   Dark green: I'm done
-
-::: callout-caution
-## TO DO
-
-Update colors of stickies
-:::
+    -   Pink: I'd like some help / I'm stuck / I'm lost
+    -   Green: I'm done
 
 # Hello Quarto
 
